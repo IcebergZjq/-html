@@ -1,0 +1,650 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>到货派送（巴枪+APP）</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/到货派送（巴枪_app）/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/到货派送（巴枪_app）/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1849" class="ax_default box_1">
+        <div id="u1849_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1850" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1851" class="ax_default label">
+        <div id="u1851_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1852" class="text">
+          <p><span>送货单号：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u1853" class="ax_default text_field">
+        <input id="u1853_input" type="text" value="SH1803020001"/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1854" class="ax_default label">
+        <div id="u1854_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1855" class="text">
+          <p><span>一、分配货物给送货员去上门送给客户；送货单号，10位数字，自动生成。规则：SH+年月日+4位递增序列，如SH1803020001；</span></p><p><span>二、手机号、车牌号根据送货员信息自动带出，可编辑；</span></p><p><span>三、载重、载积、驾驶员根据车辆信息带出；</span></p><p><span>四、送货件数、重量、体积自动根据选择的托运单计算；</span></p><p><span>五、选择托运单，自动过滤掉自提件。</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1856" class="ax_default label">
+        <div id="u1856_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1857" class="text">
+          <p><span>车牌号：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Droplist) -->
+      <div id="u1858" class="ax_default droplist">
+        <select id="u1858_input">
+          <option value="浙A12345">浙A12345</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1859" class="ax_default label">
+        <div id="u1859_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1860" class="text">
+          <p><span>送货件数：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u1861" class="ax_default text_field">
+        <input id="u1861_input" type="text" value="0" disabled/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1862" class="ax_default label">
+        <div id="u1862_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1863" class="text">
+          <p><span>送货重量(KG)：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u1864" class="ax_default text_field">
+        <input id="u1864_input" type="text" value="8,000" disabled/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1865" class="ax_default label">
+        <div id="u1865_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1866" class="text">
+          <p><span>送货体积(m³)：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u1867" class="ax_default text_field">
+        <input id="u1867_input" type="text" value="15" disabled/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1868" class="ax_default label">
+        <div id="u1868_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1869" class="text">
+          <p><span>送货时间：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Droplist) -->
+      <div id="u1870" class="ax_default droplist">
+        <select id="u1870_input">
+          <option selected value="2018-06-10 09:30:00">2018-06-10 09:30:00</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u1871" class="ax_default text_field">
+        <input id="u1871_input" type="text" value=""/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1872" class="ax_default label">
+        <div id="u1872_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1873" class="text">
+          <p><span>备&nbsp; &nbsp; 注：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (HTML Button) -->
+      <div id="u1874" class="ax_default html_button">
+        <input id="u1874_input" type="submit" value="分配&amp;打印"/>
+      </div>
+
+      <!-- Unnamed (HTML Button) -->
+      <div id="u1875" class="ax_default html_button">
+        <input id="u1875_input" type="submit" value="取消"/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1876" class="ax_default box_1">
+        <div id="u1876_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1877" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1878" class="ax_default label">
+        <div id="u1878_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1879" class="text">
+          <p><span>选择托运单（未派件）：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1880" class="ax_default label">
+        <div id="u1880_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1881" class="text">
+          <p><span>已选托运单：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (HTML Button) -->
+      <div id="u1882" class="ax_default html_button">
+        <input id="u1882_input" type="submit" value="添加&gt;&gt;"/>
+      </div>
+
+      <!-- Unnamed (HTML Button) -->
+      <div id="u1883" class="ax_default html_button">
+        <input id="u1883_input" type="submit" value="&lt;&lt;移除"/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1884" class="ax_default box_1">
+        <div id="u1884_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1885" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1886" class="ax_default label">
+        <div id="u1886_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1887" class="text">
+          <p><span>送&nbsp; 货&nbsp; 员：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Droplist) -->
+      <div id="u1888" class="ax_default droplist">
+        <select id="u1888_input">
+          <option selected value="张三">张三</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1889" class="ax_default label">
+        <div id="u1889_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1890" class="text">
+          <p><span>手机：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u1891" class="ax_default text_field">
+        <input id="u1891_input" type="text" value="13012345678"/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1892" class="ax_default label">
+        <div id="u1892_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1893" class="text">
+          <p><span>载重(KG)：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u1894" class="ax_default text_field">
+        <input id="u1894_input" type="text" value="10,000" disabled/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1895" class="ax_default label">
+        <div id="u1895_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1896" class="text">
+          <p><span>载积(m³)：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u1897" class="ax_default text_field">
+        <input id="u1897_input" type="text" value="20" disabled/>
+      </div>
+
+      <!-- Unnamed (Repeater) -->
+      <div id="u1898" class="ax_default">
+        <script id="u1898_script" type="axure-repeater-template">
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u1899" class="ax_default _表格 u1899">
+            <div id="u1899_div" class="u1899_div"></div>
+            <!-- Unnamed () -->
+            <div id="u1900" class="u1900 text" style="display:none; visibility: hidden">
+              <p><span></span></p>
+            </div>
+          </div>
+        </script>
+        <div id="u1898-1" class="preeval" style="width: 100px; height: 30px;">
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u1899-1" class="ax_default _表格 u1899" style="visibility: inherit">
+            <div id="u1899-1_div" class="u1899_div" style="visibility: inherit"></div>
+            <!-- Unnamed () -->
+            <div id="u1900-1" class="u1900 text" style="visibility: inherit">
+              <p><span>选择</span></p>
+            </div>
+          </div>
+        </div>
+        <div id="u1898-2" class="preeval" style="width: 100px; height: 30px;">
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u1899-2" class="ax_default _表格 u1899" style="visibility: inherit">
+            <div id="u1899-2_div" class="u1899_div" style="visibility: inherit"></div>
+            <!-- Unnamed () -->
+            <div id="u1900-2" class="u1900 text" style="visibility: inherit">
+              <p><span>托运单号</span></p>
+            </div>
+          </div>
+        </div>
+        <div id="u1898-3" class="preeval" style="width: 100px; height: 30px;">
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u1899-3" class="ax_default _表格 u1899" style="visibility: inherit">
+            <div id="u1899-3_div" class="u1899_div" style="visibility: inherit"></div>
+            <!-- Unnamed () -->
+            <div id="u1900-3" class="u1900 text" style="visibility: inherit">
+              <p><span>开单时间</span></p>
+            </div>
+          </div>
+        </div>
+        <div id="u1898-4" class="preeval" style="width: 100px; height: 30px;">
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u1899-4" class="ax_default _表格 u1899" style="visibility: inherit">
+            <div id="u1899-4_div" class="u1899_div" style="visibility: inherit"></div>
+            <!-- Unnamed () -->
+            <div id="u1900-4" class="u1900 text" style="visibility: inherit">
+              <p><span>发货人</span></p>
+            </div>
+          </div>
+        </div>
+        <div id="u1898-5" class="preeval" style="width: 100px; height: 30px;">
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u1899-5" class="ax_default _表格 u1899" style="visibility: inherit">
+            <div id="u1899-5_div" class="u1899_div" style="visibility: inherit"></div>
+            <!-- Unnamed () -->
+            <div id="u1900-5" class="u1900 text" style="visibility: inherit">
+              <p><span>货物</span></p>
+            </div>
+          </div>
+        </div>
+        <div id="u1898-6" class="preeval" style="width: 100px; height: 30px;">
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u1899-6" class="ax_default _表格 u1899" style="visibility: inherit">
+            <div id="u1899-6_div" class="u1899_div" style="visibility: inherit"></div>
+            <!-- Unnamed () -->
+            <div id="u1900-6" class="u1900 text" style="visibility: inherit">
+              <p><span>包装</span></p>
+            </div>
+          </div>
+        </div>
+        <div id="u1898-7" class="preeval" style="width: 100px; height: 30px;">
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u1899-7" class="ax_default _表格 u1899" style="visibility: inherit">
+            <div id="u1899-7_div" class="u1899_div" style="visibility: inherit"></div>
+            <!-- Unnamed () -->
+            <div id="u1900-7" class="u1900 text" style="visibility: inherit">
+              <p><span>件数</span></p>
+            </div>
+          </div>
+        </div>
+        <div id="u1898-8" class="preeval" style="width: 100px; height: 30px;">
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u1899-8" class="ax_default _表格 u1899" style="visibility: inherit">
+            <div id="u1899-8_div" class="u1899_div" style="visibility: inherit"></div>
+            <!-- Unnamed () -->
+            <div id="u1900-8" class="u1900 text" style="visibility: inherit">
+              <p><span>重量(KG)</span></p>
+            </div>
+          </div>
+        </div>
+        <div id="u1898-9" class="preeval" style="width: 100px; height: 30px;">
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u1899-9" class="ax_default _表格 u1899" style="visibility: inherit">
+            <div id="u1899-9_div" class="u1899_div" style="visibility: inherit"></div>
+            <!-- Unnamed () -->
+            <div id="u1900-9" class="u1900 text" style="visibility: inherit">
+              <p><span>体积(m³)</span></p>
+            </div>
+          </div>
+        </div>
+        <div id="u1898-10" class="preeval" style="width: 100px; height: 30px;">
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u1899-10" class="ax_default _表格 u1899" style="visibility: inherit">
+            <div id="u1899-10_div" class="u1899_div" style="visibility: inherit"></div>
+            <!-- Unnamed () -->
+            <div id="u1900-10" class="u1900 text" style="visibility: inherit">
+              <p><span>发往</span></p>
+            </div>
+          </div>
+        </div>
+        <div id="u1898-11" class="preeval" style="width: 100px; height: 30px;">
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u1899-11" class="ax_default _表格 u1899" style="visibility: inherit">
+            <div id="u1899-11_div" class="u1899_div" style="visibility: inherit"></div>
+            <!-- Unnamed () -->
+            <div id="u1900-11" class="u1900 text" style="visibility: inherit">
+              <p><span>到站网点</span></p>
+            </div>
+          </div>
+        </div>
+        <div id="u1898-12" class="preeval" style="width: 100px; height: 30px;">
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u1899-12" class="ax_default _表格 u1899" style="visibility: inherit">
+            <div id="u1899-12_div" class="u1899_div" style="visibility: inherit"></div>
+            <!-- Unnamed () -->
+            <div id="u1900-12" class="u1900 text" style="visibility: inherit">
+              <p><span>签回单</span></p>
+            </div>
+          </div>
+        </div>
+        <div id="u1898-13" class="preeval" style="width: 100px; height: 30px;">
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u1899-13" class="ax_default _表格 u1899" style="visibility: inherit">
+            <div id="u1899-13_div" class="u1899_div" style="visibility: inherit"></div>
+            <!-- Unnamed () -->
+            <div id="u1900-13" class="u1900 text" style="visibility: inherit">
+              <p><span>运费</span></p>
+            </div>
+          </div>
+        </div>
+        <div id="u1898-14" class="preeval" style="width: 100px; height: 30px;">
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u1899-14" class="ax_default _表格 u1899" style="visibility: inherit">
+            <div id="u1899-14_div" class="u1899_div" style="visibility: inherit"></div>
+            <!-- Unnamed () -->
+            <div id="u1900-14" class="u1900 text" style="visibility: inherit">
+              <p><span>操作员</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1901" class="ax_default box_1 selected">
+        <img id="u1901_img" class="img " src="images/预约查询/u1198.png"/>
+        <!-- Unnamed () -->
+        <div id="u1902" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Repeater) -->
+      <div id="u1903" class="ax_default">
+        <script id="u1903_script" type="axure-repeater-template">
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u1904" class="ax_default _表格 u1904">
+            <div id="u1904_div" class="u1904_div"></div>
+            <!-- Unnamed () -->
+            <div id="u1905" class="u1905 text" style="display:none; visibility: hidden">
+              <p><span></span></p>
+            </div>
+          </div>
+        </script>
+        <div id="u1903-1" class="preeval" style="width: 100px; height: 30px;">
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u1904-1" class="ax_default _表格 u1904" style="visibility: inherit">
+            <div id="u1904-1_div" class="u1904_div" style="visibility: inherit"></div>
+            <!-- Unnamed () -->
+            <div id="u1905-1" class="u1905 text" style="visibility: inherit">
+              <p><span>选择</span></p>
+            </div>
+          </div>
+        </div>
+        <div id="u1903-2" class="preeval" style="width: 100px; height: 30px;">
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u1904-2" class="ax_default _表格 u1904" style="visibility: inherit">
+            <div id="u1904-2_div" class="u1904_div" style="visibility: inherit"></div>
+            <!-- Unnamed () -->
+            <div id="u1905-2" class="u1905 text" style="visibility: inherit">
+              <p><span>托运单号</span></p>
+            </div>
+          </div>
+        </div>
+        <div id="u1903-3" class="preeval" style="width: 100px; height: 30px;">
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u1904-3" class="ax_default _表格 u1904" style="visibility: inherit">
+            <div id="u1904-3_div" class="u1904_div" style="visibility: inherit"></div>
+            <!-- Unnamed () -->
+            <div id="u1905-3" class="u1905 text" style="visibility: inherit">
+              <p><span>开单时间</span></p>
+            </div>
+          </div>
+        </div>
+        <div id="u1903-4" class="preeval" style="width: 100px; height: 30px;">
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u1904-4" class="ax_default _表格 u1904" style="visibility: inherit">
+            <div id="u1904-4_div" class="u1904_div" style="visibility: inherit"></div>
+            <!-- Unnamed () -->
+            <div id="u1905-4" class="u1905 text" style="visibility: inherit">
+              <p><span>发货人</span></p>
+            </div>
+          </div>
+        </div>
+        <div id="u1903-5" class="preeval" style="width: 100px; height: 30px;">
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u1904-5" class="ax_default _表格 u1904" style="visibility: inherit">
+            <div id="u1904-5_div" class="u1904_div" style="visibility: inherit"></div>
+            <!-- Unnamed () -->
+            <div id="u1905-5" class="u1905 text" style="visibility: inherit">
+              <p><span>货物</span></p>
+            </div>
+          </div>
+        </div>
+        <div id="u1903-6" class="preeval" style="width: 100px; height: 30px;">
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u1904-6" class="ax_default _表格 u1904" style="visibility: inherit">
+            <div id="u1904-6_div" class="u1904_div" style="visibility: inherit"></div>
+            <!-- Unnamed () -->
+            <div id="u1905-6" class="u1905 text" style="visibility: inherit">
+              <p><span>包装</span></p>
+            </div>
+          </div>
+        </div>
+        <div id="u1903-7" class="preeval" style="width: 100px; height: 30px;">
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u1904-7" class="ax_default _表格 u1904" style="visibility: inherit">
+            <div id="u1904-7_div" class="u1904_div" style="visibility: inherit"></div>
+            <!-- Unnamed () -->
+            <div id="u1905-7" class="u1905 text" style="visibility: inherit">
+              <p><span>件数</span></p>
+            </div>
+          </div>
+        </div>
+        <div id="u1903-8" class="preeval" style="width: 100px; height: 30px;">
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u1904-8" class="ax_default _表格 u1904" style="visibility: inherit">
+            <div id="u1904-8_div" class="u1904_div" style="visibility: inherit"></div>
+            <!-- Unnamed () -->
+            <div id="u1905-8" class="u1905 text" style="visibility: inherit">
+              <p><span>重量(KG)</span></p>
+            </div>
+          </div>
+        </div>
+        <div id="u1903-9" class="preeval" style="width: 100px; height: 30px;">
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u1904-9" class="ax_default _表格 u1904" style="visibility: inherit">
+            <div id="u1904-9_div" class="u1904_div" style="visibility: inherit"></div>
+            <!-- Unnamed () -->
+            <div id="u1905-9" class="u1905 text" style="visibility: inherit">
+              <p><span>体积(m³)</span></p>
+            </div>
+          </div>
+        </div>
+        <div id="u1903-10" class="preeval" style="width: 100px; height: 30px;">
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u1904-10" class="ax_default _表格 u1904" style="visibility: inherit">
+            <div id="u1904-10_div" class="u1904_div" style="visibility: inherit"></div>
+            <!-- Unnamed () -->
+            <div id="u1905-10" class="u1905 text" style="visibility: inherit">
+              <p><span>发往</span></p>
+            </div>
+          </div>
+        </div>
+        <div id="u1903-11" class="preeval" style="width: 100px; height: 30px;">
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u1904-11" class="ax_default _表格 u1904" style="visibility: inherit">
+            <div id="u1904-11_div" class="u1904_div" style="visibility: inherit"></div>
+            <!-- Unnamed () -->
+            <div id="u1905-11" class="u1905 text" style="visibility: inherit">
+              <p><span>到站网点</span></p>
+            </div>
+          </div>
+        </div>
+        <div id="u1903-12" class="preeval" style="width: 100px; height: 30px;">
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u1904-12" class="ax_default _表格 u1904" style="visibility: inherit">
+            <div id="u1904-12_div" class="u1904_div" style="visibility: inherit"></div>
+            <!-- Unnamed () -->
+            <div id="u1905-12" class="u1905 text" style="visibility: inherit">
+              <p><span>签回单</span></p>
+            </div>
+          </div>
+        </div>
+        <div id="u1903-13" class="preeval" style="width: 100px; height: 30px;">
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u1904-13" class="ax_default _表格 u1904" style="visibility: inherit">
+            <div id="u1904-13_div" class="u1904_div" style="visibility: inherit"></div>
+            <!-- Unnamed () -->
+            <div id="u1905-13" class="u1905 text" style="visibility: inherit">
+              <p><span>运费</span></p>
+            </div>
+          </div>
+        </div>
+        <div id="u1903-14" class="preeval" style="width: 100px; height: 30px;">
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u1904-14" class="ax_default _表格 u1904" style="visibility: inherit">
+            <div id="u1904-14_div" class="u1904_div" style="visibility: inherit"></div>
+            <!-- Unnamed () -->
+            <div id="u1905-14" class="u1905 text" style="visibility: inherit">
+              <p><span>操作员</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1906" class="ax_default box_1 selected">
+        <img id="u1906_img" class="img " src="images/预约查询/u1198.png"/>
+        <!-- Unnamed () -->
+        <div id="u1907" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (HTML Button) -->
+      <div id="u1908" class="ax_default html_button">
+        <input id="u1908_input" type="submit" value="推荐行车线路"/>
+      </div>
+    </div>
+  </body>
+</html>
