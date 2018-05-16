@@ -1,0 +1,381 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>PDA查询+UI</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/pda___ui/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/pda___ui/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (HTML Button) -->
+      <div id="u4686" class="ax_default html_button">
+        <input id="u4686_input" type="submit" value="新增"/>
+      </div>
+
+      <!-- Unnamed (HTML Button) -->
+      <div id="u4687" class="ax_default html_button">
+        <input id="u4687_input" type="submit" value="查询"/>
+      </div>
+
+      <!-- Unnamed (Repeater) -->
+      <div id="u4688" class="ax_default">
+        <script id="u4688_script" type="axure-repeater-template">
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u4689" class="ax_default _表格 u4689">
+            <div id="u4689_div" class="u4689_div"></div>
+            <!-- Unnamed () -->
+            <div id="u4690" class="u4690 text" style="display:none; visibility: hidden">
+              <p><span></span></p>
+            </div>
+          </div>
+        </script>
+        <div id="u4688-1" class="preeval" style="width: 100px; height: 30px;">
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u4689-1" class="ax_default _表格 u4689" style="visibility: inherit">
+            <div id="u4689-1_div" class="u4689_div" style="visibility: inherit"></div>
+            <!-- Unnamed () -->
+            <div id="u4690-1" class="u4690 text" style="visibility: inherit">
+              <p><span>选择</span></p>
+            </div>
+          </div>
+        </div>
+        <div id="u4688-2" class="preeval" style="width: 100px; height: 30px;">
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u4689-2" class="ax_default _表格 u4689" style="visibility: inherit">
+            <div id="u4689-2_div" class="u4689_div" style="visibility: inherit"></div>
+            <!-- Unnamed () -->
+            <div id="u4690-2" class="u4690 text" style="visibility: inherit">
+              <p><span>SN码</span></p>
+            </div>
+          </div>
+        </div>
+        <div id="u4688-3" class="preeval" style="width: 100px; height: 30px;">
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u4689-3" class="ax_default _表格 u4689" style="visibility: inherit">
+            <div id="u4689-3_div" class="u4689_div" style="visibility: inherit"></div>
+            <!-- Unnamed () -->
+            <div id="u4690-3" class="u4690 text" style="visibility: inherit">
+              <p><span>厂家名称</span></p>
+            </div>
+          </div>
+        </div>
+        <div id="u4688-4" class="preeval" style="width: 100px; height: 30px;">
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u4689-4" class="ax_default _表格 u4689" style="visibility: inherit">
+            <div id="u4689-4_div" class="u4689_div" style="visibility: inherit"></div>
+            <!-- Unnamed () -->
+            <div id="u4690-4" class="u4690 text" style="visibility: inherit">
+              <p><span>设备名称</span></p>
+            </div>
+          </div>
+        </div>
+        <div id="u4688-5" class="preeval" style="width: 100px; height: 30px;">
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u4689-5" class="ax_default _表格 u4689" style="visibility: inherit">
+            <div id="u4689-5_div" class="u4689_div" style="visibility: inherit"></div>
+            <!-- Unnamed () -->
+            <div id="u4690-5" class="u4690 text" style="visibility: inherit">
+              <p><span>手机号码</span></p>
+            </div>
+          </div>
+        </div>
+        <div id="u4688-6" class="preeval" style="width: 100px; height: 30px;">
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u4689-6" class="ax_default _表格 u4689" style="visibility: inherit">
+            <div id="u4689-6_div" class="u4689_div" style="visibility: inherit"></div>
+            <!-- Unnamed () -->
+            <div id="u4690-6" class="u4690 text" style="visibility: inherit">
+              <p><span>MAC地址</span></p>
+            </div>
+          </div>
+        </div>
+        <div id="u4688-7" class="preeval" style="width: 100px; height: 30px;">
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u4689-7" class="ax_default _表格 u4689" style="visibility: inherit">
+            <div id="u4689-7_div" class="u4689_div" style="visibility: inherit"></div>
+            <!-- Unnamed () -->
+            <div id="u4690-7" class="u4690 text" style="visibility: inherit">
+              <p><span>发放人</span></p>
+            </div>
+          </div>
+        </div>
+        <div id="u4688-8" class="preeval" style="width: 100px; height: 30px;">
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u4689-8" class="ax_default _表格 u4689" style="visibility: inherit">
+            <div id="u4689-8_div" class="u4689_div" style="visibility: inherit"></div>
+            <!-- Unnamed () -->
+            <div id="u4690-8" class="u4690 text" style="visibility: inherit">
+              <p><span>发放时间</span></p>
+            </div>
+          </div>
+        </div>
+        <div id="u4688-9" class="preeval" style="width: 100px; height: 30px;">
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u4689-9" class="ax_default _表格 u4689" style="visibility: inherit">
+            <div id="u4689-9_div" class="u4689_div" style="visibility: inherit"></div>
+            <!-- Unnamed () -->
+            <div id="u4690-9" class="u4690 text" style="visibility: inherit">
+              <p><span>备注</span></p>
+            </div>
+          </div>
+        </div>
+        <div id="u4688-10" class="preeval" style="width: 100px; height: 30px;">
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u4689-10" class="ax_default _表格 u4689" style="visibility: inherit">
+            <div id="u4689-10_div" class="u4689_div" style="visibility: inherit"></div>
+            <!-- Unnamed () -->
+            <div id="u4690-10" class="u4690 text" style="visibility: inherit">
+              <p><span>启用</span></p>
+            </div>
+          </div>
+        </div>
+        <div id="u4688-11" class="preeval" style="width: 100px; height: 30px;">
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u4689-11" class="ax_default _表格 u4689" style="visibility: inherit">
+            <div id="u4689-11_div" class="u4689_div" style="visibility: inherit"></div>
+            <!-- Unnamed () -->
+            <div id="u4690-11" class="u4690 text" style="visibility: inherit">
+              <p><span>&nbsp;</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u4691" class="ax_default box_1 selected">
+        <img id="u4691_img" class="img " src="images/预约查询__ui/u1349.png"/>
+        <!-- Unnamed () -->
+        <div id="u4692" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (HTML Button) -->
+      <div id="u4693" class="ax_default html_button">
+        <input id="u4693_input" type="submit" value="导入"/>
+      </div>
+
+      <!-- Unnamed (HTML Button) -->
+      <div id="u4694" class="ax_default html_button">
+        <input id="u4694_input" type="submit" value="导出"/>
+      </div>
+
+      <!-- Unnamed (HTML Button) -->
+      <div id="u4695" class="ax_default html_button">
+        <input id="u4695_input" type="submit" value="下载模板"/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4696" class="ax_default box_1">
+        <div id="u4696_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u4697" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Text Area) -->
+      <div id="u4698" class="ax_default text_area">
+        <textarea id="u4698_input"></textarea>
+      </div>
+
+      <!-- Unnamed (HTML Button) -->
+      <div id="u4699" class="ax_default html_button">
+        <input id="u4699_input" type="submit" value="清空"/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4700" class="ax_default label">
+        <div id="u4700_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u4701" class="text">
+          <p><span>一、界面上涉及 厂家名称 设备名称等基础数据 在数据字典中进行添加 </span></p><p><span>二、页面提供导入模块下载,具体格式如下图,图中前三列为必填项.</span></p><p><span><br></span></p><p><span><br></span></p><p><span>三.用户可以根据情况进行批量启用、停用,启用时间为点击启用时的系统时间 ，停用时在备注中记录停用时间及原因，同时需要更改状态。&nbsp; &nbsp;&nbsp; 为弃用停用按钮。</span></p><p><span>四.手机号码可以根据使用人员自动带出（取员工表或驾驶员表）</span></p><p><span>五.SN码处支持模糊匹配查询选择（此时需要过滤已启用的唯一码），支持手动输入增加</span></p><p><span>六.启用状态为不可修改项，是通过 点击启用或PDA激活接口 二种方式进行状态变更。</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Group) -->
+      <div id="u4702" class="ax_default" data-width="79" data-height="27">
+
+        <!-- Unnamed (Image) -->
+        <div id="u4703" class="ax_default _图片">
+          <img id="u4703_img" class="img " src="images/网点管理__ui/u554.png"/>
+          <!-- Unnamed () -->
+          <div id="u4704" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Shape) -->
+        <div id="u4705" class="ax_default icon">
+          <img id="u4705_img" class="img " src="images/pda___ui/u4705.png"/>
+          <!-- Unnamed () -->
+          <div id="u4706" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4707" class="ax_default label">
+        <div id="u4707_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u4708" class="text">
+          <p><span>SN码：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u4709" class="ax_default text_field">
+        <input id="u4709_input" type="text" value="361012123888991"/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4710" class="ax_default label">
+        <div id="u4710_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u4711" class="text">
+          <p><span>厂家名称：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4712" class="ax_default label">
+        <div id="u4712_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u4713" class="text">
+          <p><span>设备名称:</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4714" class="ax_default label">
+        <div id="u4714_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u4715" class="text">
+          <p><span>使用网点:</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Droplist) -->
+      <div id="u4716" class="ax_default droplist">
+        <select id="u4716_input">
+          <option value="滨江公司">滨江公司</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4717" class="ax_default label">
+        <div id="u4717_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u4718" class="text">
+          <p><span>使用人员:</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Droplist) -->
+      <div id="u4719" class="ax_default droplist">
+        <select id="u4719_input">
+          <option value="K2">K2</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (Droplist) -->
+      <div id="u4720" class="ax_default droplist">
+        <select id="u4720_input">
+          <option value="凯立">凯立</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (Droplist) -->
+      <div id="u4721" class="ax_default droplist">
+        <select id="u4721_input">
+          <option value="张三">张三</option>
+          <option value="李四">李四</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (Paragraph) -->
+      <div id="u4722" class="ax_default paragraph">
+        <img id="u4722_img" class="img " src="images/pda___ui/u4722.png"/>
+        <!-- Unnamed () -->
+        <div id="u4723" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u4724" class="ax_default _图片">
+        <img id="u4724_img" class="img " src="images/pda___ui/u4724.png"/>
+        <!-- Unnamed () -->
+        <div id="u4725" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u4726" class="ax_default icon">
+        <img id="u4726_img" class="img " src="images/pda___ui/u4705.png"/>
+        <!-- Unnamed () -->
+        <div id="u4727" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
