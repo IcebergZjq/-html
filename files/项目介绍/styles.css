@@ -12,47 +12,11 @@
   position:absolute;
   z-index:0;
 }
-#u217_div {
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:98px;
-  height:24px;
-  background:inherit;
-  background-color:rgba(255, 255, 255, 0);
-  border:none;
-  border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'Arial Negreta', 'Arial Normal', 'Arial';
-  font-weight:700;
-  font-style:normal;
-  font-size:20px;
-}
-#u217 {
-  position:absolute;
-  left:36px;
-  top:15px;
-  width:98px;
-  height:24px;
-  font-family:'Arial Negreta', 'Arial Normal', 'Arial';
-  font-weight:700;
-  font-style:normal;
-  font-size:20px;
-}
-#u218 {
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:98px;
-  white-space:nowrap;
-}
 #u219_div {
   position:absolute;
   left:0px;
   top:0px;
-  width:144px;
+  width:98px;
   height:24px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
@@ -69,8 +33,8 @@
 #u219 {
   position:absolute;
   left:36px;
-  top:96px;
-  width:144px;
+  top:15px;
+  width:98px;
   height:24px;
   font-family:'Arial Negreta', 'Arial Normal', 'Arial';
   font-weight:700;
@@ -81,14 +45,14 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:144px;
+  width:98px;
   white-space:nowrap;
 }
 #u221_div {
   position:absolute;
   left:0px;
   top:0px;
-  width:184px;
+  width:144px;
   height:24px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
@@ -105,8 +69,8 @@
 #u221 {
   position:absolute;
   left:36px;
-  top:175px;
-  width:184px;
+  top:96px;
+  width:144px;
   height:24px;
   font-family:'Arial Negreta', 'Arial Normal', 'Arial';
   font-weight:700;
@@ -117,7 +81,7 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:184px;
+  width:144px;
   white-space:nowrap;
 }
 #u223_div {
@@ -141,7 +105,7 @@
 #u223 {
   position:absolute;
   left:36px;
-  top:262px;
+  top:175px;
   width:184px;
   height:24px;
   font-family:'Arial Negreta', 'Arial Normal', 'Arial';
@@ -160,8 +124,8 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:343px;
-  height:22px;
+  width:184px;
+  height:24px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
   border:none;
@@ -169,28 +133,34 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-size:18px;
+  font-family:'Arial Negreta', 'Arial Normal', 'Arial';
+  font-weight:700;
+  font-style:normal;
+  font-size:20px;
 }
 #u225 {
   position:absolute;
-  left:51px;
-  top:55px;
-  width:343px;
-  height:22px;
-  font-size:18px;
+  left:36px;
+  top:262px;
+  width:184px;
+  height:24px;
+  font-family:'Arial Negreta', 'Arial Normal', 'Arial';
+  font-weight:700;
+  font-style:normal;
+  font-size:20px;
 }
 #u226 {
   position:absolute;
   left:0px;
   top:0px;
-  width:343px;
+  width:184px;
   white-space:nowrap;
 }
 #u227_div {
   position:absolute;
   left:0px;
   top:0px;
-  width:235px;
+  width:343px;
   height:22px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
@@ -204,8 +174,8 @@
 #u227 {
   position:absolute;
   left:51px;
-  top:218px;
-  width:235px;
+  top:55px;
+  width:343px;
   height:22px;
   font-size:18px;
 }
@@ -213,14 +183,14 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:235px;
+  width:343px;
   white-space:nowrap;
 }
 #u229_div {
   position:absolute;
   left:0px;
   top:0px;
-  width:145px;
+  width:235px;
   height:22px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
@@ -234,8 +204,8 @@
 #u229 {
   position:absolute;
   left:51px;
-  top:132px;
-  width:145px;
+  top:218px;
+  width:235px;
   height:22px;
   font-size:18px;
 }
@@ -243,10 +213,40 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:145px;
+  width:235px;
   white-space:nowrap;
 }
 #u231_div {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:145px;
+  height:22px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 0);
+  border:none;
+  border-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  font-size:18px;
+}
+#u231 {
+  position:absolute;
+  left:51px;
+  top:132px;
+  width:145px;
+  height:22px;
+  font-size:18px;
+}
+#u232 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:145px;
+  white-space:nowrap;
+}
+#u233_div {
   position:absolute;
   left:0px;
   top:0px;
@@ -261,7 +261,7 @@
   box-shadow:none;
   font-size:18px;
 }
-#u231 {
+#u233 {
   position:absolute;
   left:51px;
   top:303px;
@@ -269,7 +269,7 @@
   height:66px;
   font-size:18px;
 }
-#u232 {
+#u234 {
   position:absolute;
   left:0px;
   top:0px;
