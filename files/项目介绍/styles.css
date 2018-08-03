@@ -3,7 +3,7 @@
   background-image:none;
   position:static;
   left:auto;
-  width:394px;
+  width:406px;
   margin-left:0;
   margin-right:0;
   text-align:left;
@@ -250,7 +250,7 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:319px;
+  width:355px;
   height:66px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
@@ -265,7 +265,7 @@
   position:absolute;
   left:51px;
   top:303px;
-  width:319px;
+  width:355px;
   height:66px;
   font-size:18px;
 }
@@ -273,6 +273,6 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:319px;
+  width:355px;
   white-space:nowrap;
 }
